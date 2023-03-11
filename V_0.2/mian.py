@@ -1,3 +1,4 @@
+# Imports Starts ---------------------------------------------------------------------------------------------------------
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import re
@@ -6,11 +7,20 @@ import nltk
 import numpy as np
 import string
 
+# Imports Ends ---------------------------------------------------------------------------------------------------------
+
+#Here the concept is:
+#User will input the string, understand the question root and then try to find the
+#appropriate answer in the saved data file and then print it
+#If the data is not found then it'll return "Unable to understand that"
+#This uses machine Learning module called "NLTK: Nartural Language Tool Kit")
+#and try To the any type of un-preprogramed string
 
 
+#Opening the files the reading the data saved in them
 f1 = open('V_0.2\data.txt', 'r', errors='ignore')
 f2 = open('V_0.2\data2.txt', 'r', errors='ignore')
-raw_doc = f1.read() + f2.read()
+raw_doc = f1.read() + f2.read() #Storing the read data inside a variable
 # print (raw_doc)
 
 
@@ -23,20 +33,20 @@ raw_doc = raw_doc.lower() #Converting entire text to lowercase
 nltk.download('punkt') #Using the Punkt tokenizer
 nltk.download('wordnet') #Using the wordnet Dictionary
 nltk.download('omw-1.4')
-    
-sentence_tokens = nltk.sent_tokenize(raw_doc)
-word_tokens = nltk.word_tokenize(raw_doc)
+
+sentence_tokens = nltk.sent_tokenize(raw_doc) #This will tokenize the sentence
+word_tokens = nltk.word_tokenize(raw_doc) #This will tokenize the word
 # print(sentence_tokens[:5]) #printing the first 5 sentence
-# print(word_tokens[:5]) #printing the first 5 words
-    
-    
+# print(word_tokens[:5]) #printing the first 5 words    
+
+#This will Lemmertize the data
 lemmer = nltk.stem.WordNetLemmatizer()
-    
+
 def LemTokens(tokens):
     return [lemmer.lemmatize(token) for token in tokens]
-    
+
 remove_punc_dict = dict((ord(punkt), None) for punkt in string.punctuation)
-    
+
 def LemNormalize(text):
     return LemTokens(nltk.word_tokenize(text.lower().translate(remove_punc_dict)))
 
@@ -115,87 +125,3 @@ while (flag == True):
     
 
 # ChatFlow Ends ---------------------------------------------------------------------------------------------------
-
-# class RuleBot:
-#     # Potential Negative Responses
-#     negative_reponses = ('no', 'nope', 'nah', 'naw', 'not a chance', 'sorry')
-    
-#     # Exit conversation Keywords
-#     exit_commands = ('quit', 'pause', 'exit', 'goodbye', 'bye', 'later')
-    
-#     # Random starter question
-#     random_question = (
-#         'Why are you here?',
-#         'Are there many humans like you?\n',
-#         'What do you consume for sustenance?\n',
-#         'Is there intelligent life on this planet?\n',
-#         'Does Earth have a leader?\n',
-#         'What planets have you visited?\n',
-#         'What technology do you have ont this planet?\n'
-#     )
-    
-#     def __init__(self):
-#         self.alienbabble = {'describe_planet_intent': r'.*\s*your planet.*',
-#                             'answer_why_intent': r'why\sare.*'}
-    
-    
-#     def greet(self):
-#         self.name = input("What is your name?\n")
-#         will_help = input(f"Hi {self.name}, \
-#                           I am Rule-Bot. Will you help me learn about your planet?\n")
-        
-#         if will_help in self.negative_reponses:
-#             print("ok, have a nice Earth day!")
-#             return 
-#         self.chat()
-        
-#     def make_exit(self, reply):
-        
-#         for command in self.exit_commands:
-#             if reply == command:
-#                 print("Okay, have a nice Earth day!")
-#                 return True
-    
-#     def chat(self):
-#         reply = input(random.choice(self.random_question)).lower()
-#         while not self.make_exit(reply):
-#             reply = input(self.match_reply(reply))
-    
-#     def match_reply(self, reply):
-#         for key, value in self.alienbabble.items():
-#             intent = key
-#             regex_pattern = value
-#             found_match = re.match(regex_pattern, reply)
-            
-#             if found_match and intent == 'describe_planet_intent':
-#                 return self.describe_planet_intent()
-#             elif found_match and intent == 'answer_why_intent':
-#                 return self.answer_why_intent()
-        
-#         if not found_match:
-#             return self.no_match_intent()
-    
-#     def describe_planet_intent(self):
-#         responses = ("My planet is a utopia of diverse organisms and species.\n",
-#                     "I am from Opidipus, the capital of the Wayward Galaxies.\n")
-        
-#         return random.choice(responses)
-    
-#     def answer_why_intent(self):
-#         responses = ("I come in peace\n",
-#                     "I am here to collect data on your planet and its inhabitants\n",
-#                     "I heard the coffee is good.\n")
-        
-#         return random.choice(responses)
-    
-#     def no_match_intent(self):
-#         responses = (
-#             "Please tell me more.\n", "Tell me more!\n", "Why do you say that?\n",
-#             "I see, Can you please Elaborate?\n", "Interesting. Can you tell me more about that?\n",
-#             "I see. How do you think?\n", "Why?\n", "How do you think I feel when you say that?\n",
-#         )
-#         return random.choice(responses)
-    
-
-# AlienBot = RuleBot()
-# AlienBot.greet()

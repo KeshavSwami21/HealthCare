@@ -3,4 +3,4 @@
 #Next Version will be uploaded by tomorrow's night.
 
 
-This is the ALpha Build stage where the New technologies will tested before the implementation.
+This is the Alpha Build stage where the New technologies will be tested before the implementation.

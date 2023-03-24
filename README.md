@@ -35,8 +35,19 @@
 >
 >Here is an explanation of the provided code:
 >
->Import necessary libraries:
+>1. Import necessary libraries:
 >
->* `torch` - main library used for building and training deep learning models.
->* `torch.nn` - a sub-library within PyTorch containing all the necessary functions to create neural networks.
->* `torch.nn.functional` - another sub-library within PyTorch containing various activation functions and loss functions.
+>   * `torch` - main library used for building and training deep learning models.
+>   * `torch.nn` - a sub-library within PyTorch containing all the necessary functions to create neural networks.
+>   * `torch.nn.functional` - another sub-library within PyTorch containing various activation functions and loss functions.
+>
+>2. Define Hyperparameters:
+>
+>   * `batch_size`: the number of independent sequences processed in parallel.
+>   * `block_size`: the maximum context length for predictions.
+>   * `max_iters`: the maximum number of iterations to train the model.
+>   * `eval_interval`: the interval at which the loss is evaluated on the training and validation sets.
+>   * `learning_rate`: the learning rate of the optimizer used to train the model.
+>   * `device`: the device on which to train the model (CPU or GPU).
+>   * `eval_iters`: the number of iterations to use when evaluating the loss on the training and validation sets.
+>   * `n_embd`: the size of the embedding dimension used for each token in the input sequence.

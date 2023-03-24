@@ -53,7 +53,7 @@
 >   * The bot responds with a greeting if the user's input contains a greeting.
 >   * If not, the bot lemmatizes the user's input, appends it to `sentence_tokens`, and calculates the cosine similarity between the user's input and the saved data.
 >   * If the cosine similarity is zero, the bot responds with "I am sorry. Unable to understand that."
->   * If not, the bot responds with the most similar sentence from the saved data.
+>   -* If not, the bot responds with the most similar sentence from the saved data.
 >
 >10. The user can end the conversation by typing "bye". The bot responds with "Goodbye!".
 

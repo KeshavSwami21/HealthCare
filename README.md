@@ -1,8 +1,8 @@
 # HealthCare Chat
 
-# Date: 24-03-2023
+## Date: 24-03-2023
 
-# Version 3 includes the Biagram Language Model:
+### Version 3 includes the Biagram Language Model:
 
 The BigramLanguageModel is a PyTorch module that implements a simple language model that makes use of bigrams (i.e., pairs of adjacent characters) to predict the next character in a sequence.
 

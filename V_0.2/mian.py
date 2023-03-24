@@ -29,7 +29,7 @@ raw_doc = f1.read() + f2.read() #Storing the read data inside a variable
 
 raw_doc = raw_doc.lower() #Converting entire text to lowercase
 # print(raw_doc) # converted to lowercase
-    
+
 nltk.download('punkt') #Using the Punkt tokenizer
 nltk.download('wordnet') #Using the wordnet Dictionary
 nltk.download('omw-1.4')

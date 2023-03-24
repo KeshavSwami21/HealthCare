@@ -32,3 +32,11 @@
 >During training, the model is given the input tensor and a tensor of the same shape containing the true next characters for each sequence. It then computes the cross-entropy loss between the predicted logits and the true next characters.
 > 
 >During inference, the model is given a starting sequence and generates new characters one by one by repeatedly applying the forward pass of the model to the current sequence and sampling the next character from the predicted distribution. The generated sequence can be of arbitrary length.
+>
+>Here is an explanation of the provided code:
+>
+>Import necessary libraries:
+>
+>* `torch` - main library used for building and training deep learning models.
+>* `torch.nn` - a sub-library within PyTorch containing all the necessary functions to create neural networks.
+>* `torch.nn.functional` - another sub-library within PyTorch containing various activation functions and loss functions.

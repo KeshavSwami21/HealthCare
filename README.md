@@ -1,6 +1,8 @@
 # HealthCare Chat
 
-## Date: 24-03-2023
+### Version 1 include the Rule based Chabot:
+
+
 
 ### Version 3 includes the Biagram Language Model:
 

@@ -51,3 +51,5 @@
 >   * `device`: the device on which to train the model (CPU or GPU).
 >   * `eval_iters`: the number of iterations to use when evaluating the loss on the training and validation sets.
 >   * `n_embd`: the size of the embedding dimension used for each token in the input sequence.
+>
+>3. Set random seed to 1337 using `torch.manual_seed(1337)` to ensure reproducibility of the training process.

@@ -1,4 +1,4 @@
-# HealthCare Chat
+# HealthCare ChatBot
 
 ### Version 1 includes the Rule based Chabot:
 

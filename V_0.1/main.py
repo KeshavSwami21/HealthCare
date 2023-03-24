@@ -57,6 +57,7 @@ class RuleBot:
     
     #This function will match the question intent and try to answer the question accordingly
     def match_reply(self, reply):
+        found_match = None
         for key, value in self.alienbabble.items():
             intent = key
             regex_pattern = value

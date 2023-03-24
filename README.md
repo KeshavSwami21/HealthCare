@@ -81,8 +81,8 @@
 >   * `split`: a string indicating whether to get data from the training or validation set.
 >   * `data`: the dataset to use (either the training or validation set).
 >   * `ix`: a random index from which to start the batch.
->   * `x`: a tensor of shape (batch_size, block_size) containing the input sequences.
->   * `y`: a tensor of shape (batch_size, block_size) containing the target sequences.
+>   * `x`: a tensor of shape (`batch_size`, `block_size`) containing the input sequences.
+>   * `y`: a tensor of shape (`batch_size`, `block_size`) containing the target sequences.
 >   * `x`, `y`: convert the input and target sequences to the appropriate device (CPU or GPU).
 >
 >8. Define a function to estimate the loss on the training and validation sets.

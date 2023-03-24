@@ -18,8 +18,8 @@ import string
 
 
 #Opening the files the reading the data saved in them
-f1 = open('V_0.2\data.txt', 'r', errors='ignore')
-f2 = open('V_0.2\data2.txt', 'r', errors='ignore')
+f1 = open('V_0.2/data.txt', 'r', errors='ignore')
+f2 = open('V_0.2/data2.txt', 'r', errors='ignore')
 raw_doc = f1.read() + f2.read() #Storing the read data inside a variable
 # print (raw_doc)
 
@@ -109,7 +109,7 @@ while (flag == True):
     
         else:
             if(Greet(user_response) != None):
-                print('Bot ' + Greet(user_response))
+                print('Bot ', Greet(user_response))
         
             else:
                 sentence_tokens.append(user_response)

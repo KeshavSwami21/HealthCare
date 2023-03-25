@@ -14,10 +14,6 @@
 >                            'answer_why_intent': r'why\sare.*'}
 >``` 
 >***
->
->
->
->
 > 4. The `greet()` function initiates the conversation with the user by asking for their name and whether they are willing to help the alien learn about Earth.
 > 
 > 5. The `make_exit(reply)` function checks if the user has entered one of the exit commands and terminates the chatbot if so.

@@ -3,7 +3,7 @@
 ### Version 1 includes the Rule based Chabot:
 
 
-> 1. The code defines a class named **RuleBot** which implements a rule-based chatbot that communicates with the user in the context of an alien trying to learn about planet Earth
+> 1. The code defines a class named **RuleBot** which implements a rule-based chatbot that communicates with the user in the context of an alien trying to learn about planet Earth.
 >
 > 2. The chatbot has several built-in rules, including exit commands, negative responses, and random starter questions.
 > 

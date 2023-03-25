@@ -2,6 +2,7 @@
 
 ### Version 1 includes the Rule based Chabot:
 
+
 > 1. The code defines a class named **RuleBot** which implements a rule-based chatbot that communicates with the user in the context of an alien trying to learn about planet Earth.
 >
 > 2. The chatbot has several built-in rules, including exit commands, negative responses, and random starter questions.
@@ -21,9 +22,7 @@
 > 9. The `no_match_intent()` function provides a set of generic responses that the chatbot uses when the user's input does not match any of the defined intents.
 > 
 > 10. Finally, the code creates an instance of the RuleBot class and initiates the conversation by calling the `greet()` function.
-
-
-
+***
 ### Version 2 includes the preprocessing based Chabot:
 
 >1. Importing necessary libraries:
@@ -56,7 +55,7 @@
 >   >* If not, the bot responds with the most similar sentence from the saved data.
 >
 >10. The user can end the conversation by typing "bye". The bot responds with "Goodbye!".
-
+***
 ### Version 3 includes the Biagram Language Model:
 
 > **Bigram Language Model:**

@@ -8,11 +8,11 @@
 > 2. The chatbot has several built-in rules, including exit commands, negative responses, and random starter questions.
 > 
 > 3. The `__init__()` function initializes the chatbot's intents as a dictionary with regular expressions that correspond to specific questions or statements the user may make.
-```python
-def __init__(self):
-        self.alienbabble = {'describe_planet_intent': r'.*\s*your planet.*',
-                            'answer_why_intent': r'why\sare.*'}
-``` 
+>```python
+>def __init__(self):
+>        self.alienbabble = {'describe_planet_intent': r'.*\s*your planet.*',
+>                            'answer_why_intent': r'why\sare.*'}
+>``` 
 >
 >
 >

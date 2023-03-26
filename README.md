@@ -24,4 +24,5 @@ Introducing our amazing team, dedicated to bringing our Health Care Chatbot to l
 - 4th Division Captain (Management): Vanshika
 - 5th Division Captain (Security): Not Assigned yet
 - 6th Division Captain (Maintenance): Not Assigned yet
+
 Together, we are working tirelessly to create a reliable, secure, and user-friendly Health Care Chatbot powered by deep learning and neural networks. We are excited to bring our unique skills and perspectives to this project, and we look forward to sharing our progress with you.

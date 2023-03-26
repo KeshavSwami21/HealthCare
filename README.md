@@ -16,13 +16,13 @@ So, stay tuned! We believe that our Health Care Chatbot has the potential to rev
 
 Introducing our amazing team, dedicated to bringing our Health Care Chatbot to life:
 
-- Commander: [Keshav Swami](https://www.linkedin.com/in/keshavswami2112/ "LinkedIn Profile")🙋🏻‍♀️
-- Vice-Commander: [Prince Garg](https://www.linkedin.com/in/prince-garg-14861b250/ "LinkedIn Profile")
-- 1st Division Captain (Research and Documentation): [Ritesh](https://www.linkedin.com/in/mr-ritesh-1ab93424b/ "LinkedIn Profile")
-- 2nd Division Captain (Development): Arshit
-- 3rd Division Captain (UI/UX Design): Niti Bhatia
-- 4th Division Captain (Management): [Vanshika](https://instagram.com/vanshii_bansal_03?igshid=MjljNjAzYmU= "Instagram Profile")
-- 5th Division Captain (Security): Not Assigned yet
-- 6th Division Captain (Maintenance): Not Assigned yet
+- Commander: [Keshav Swami](https://www.linkedin.com/in/keshavswami2112/ "LinkedIn Profile")😎
+- Vice-Commander: [Prince Garg](https://www.linkedin.com/in/prince-garg-14861b250/ "LinkedIn Profile")😶‍🌫️
+- 1st Division Captain (Research and Documentation): [Ritesh]😉(https://www.linkedin.com/in/mr-ritesh-1ab93424b/ "LinkedIn Profile")
+- 2nd Division Captain (Development): Arshit🫡
+- 3rd Division Captain (UI/UX Design): Niti Bhatia✌️
+- 4th Division Captain (Management): [Vanshika](https://instagram.com/vanshii_bansal_03?igshid=MjljNjAzYmU= "Instagram Profile")😏
+- 5th Division Captain (Security): Not Assigned yet😶
+- 6th Division Captain (Maintenance): Not Assigned yet😶
 
 Together, we are working tirelessly to create a reliable, secure, and user-friendly Health Care Chatbot powered by deep learning and neural networks. We are excited to bring our unique skills and perspectives to this project, and we look forward to sharing our progress with you.

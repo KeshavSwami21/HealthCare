@@ -93,4 +93,3 @@
 >```
 >***
 > 10. Finally, the code creates an instance of the RuleBot class and initiates the conversation by calling the `greet()` function.
-***

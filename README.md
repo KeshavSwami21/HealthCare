@@ -16,7 +16,7 @@ So, stay tuned! We believe that our Health Care Chatbot has the potential to rev
 
 Introducing our amazing team, dedicated to bringing our Health Care Chatbot to life:
 
-- Commander: Keshav Swami
+- Commander: [Keshav Swami](https://www.linkedin.com/in/keshavswami2112/)
 - Vice-Commander: Prince Garg
 - 1st Division Captain (Research and Documentation): Ritesh
 - 2nd Division Captain (Development): Arshit

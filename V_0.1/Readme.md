@@ -46,9 +46,41 @@
 >```
 >***
 > 7. The `match_reply(reply)` function matches the user's input to one of the intents defined in the chatbot's dictionary and responds accordingly. If the input does not match any intent, the chatbot uses the `no_match_intent()` function to prompt the user for more information.
-> 
+> ```python
+>    def match_reply(self, reply):
+>        found_match = None
+>        for key, value in self.alienbabble.items():
+>            intent = key
+>            regex_pattern = value
+>            found_match = re.match(regex_pattern, reply)
+>            
+>            if found_match and intent == 'describe_planet_intent':
+>                return self.describe_planet_intent()
+>            elif found_match and intent == 'answer_why_intent':
+>                return self.answer_why_intent()
+>        
+>        if not found_match:
+>            return self.no_match_intent()
+>```
+>***
 > 8. The `describe_planet_intent()` and `answer_why_intent()` functions define specific responses to the corresponding intents in the chatbot's dictionary.
-> 
+> ```python
+>    #Replies for the planet question
+>    def describe_planet_intent(self):
+>        responses = ("My planet is a utopia of diverse organisms and species.\n",
+>                    "I am from Opidipus, the capital of the Wayward Galaxies.\n")
+>        
+>        return random.choice(responses)
+>    
+>    #Replies for the Why intent question
+>    def answer_why_intent(self):
+>        responses = ("I come in peace\n",
+>                    "I am here to collect data on your planet and its inhabitants\n",
+>                    "I heard the coffee is good.\n")
+>        
+>        return random.choice(responses)
+>```
+>***
 > 9. The `no_match_intent()` function provides a set of generic responses that the chatbot uses when the user's input does not match any of the defined intents.
 > 
 > 10. Finally, the code creates an instance of the RuleBot class and initiates the conversation by calling the `greet()` function.

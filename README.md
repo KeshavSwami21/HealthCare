@@ -19,7 +19,7 @@ Introducing our amazing team, dedicated to bringing our Health Care Chatbot to l
 
 - Commander: [Keshav Swami](https://www.linkedin.com/in/keshavswami2112/ "LinkedIn Profile")😎
 - Vice-Commander: [Prince Garg](https://www.linkedin.com/in/prince-garg-14861b250/ "LinkedIn Profile")😶‍🌫️
-- 1st Division Captain (Research and Documentation): [Ritesh]😉(https://www.linkedin.com/in/mr-ritesh-1ab93424b/ "LinkedIn Profile")
+- 1st Division Captain (Research and Documentation): [Ritesh](https://www.linkedin.com/in/mr-ritesh-1ab93424b/ "LinkedIn Profile")😉
 - 2nd Division Captain (Development): Arshit🫡
 - 3rd Division Captain (UI/UX Design): Niti Bhatia✌️
 - 4th Division Captain (Management): [Vanshika](https://instagram.com/vanshii_bansal_03?igshid=MjljNjAzYmU= "Instagram Profile")😏

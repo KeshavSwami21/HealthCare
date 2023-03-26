@@ -82,6 +82,15 @@
 >```
 >***
 > 9. The `no_match_intent()` function provides a set of generic responses that the chatbot uses when the user's input does not match any of the defined intents.
-> 
+>```python
+>    def no_match_intent(self):
+>        responses = (
+>            "Please tell me more.\n", "Tell me more!\n", "Why do you say that?\n",
+>            "I see, Can you please Elaborate?\n", "Interesting. Can you tell me more about that?\n",
+>            "I see. How do you think?\n", "Why?\n", "How do you think I feel when you say that?\n",
+>        )
+>        return random.choice(responses) 
+>```
+>***
 > 10. Finally, the code creates an instance of the RuleBot class and initiates the conversation by calling the `greet()` function.
 ***

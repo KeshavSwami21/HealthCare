@@ -15,7 +15,18 @@
 >``` 
 >***
 > 4. The `greet()` function initiates the conversation with the user by asking for their name and whether they are willing to help the alien learn about Earth.
-> 
+>```python
+> def greet(self):
+>        self.name = input("What is your name?\n")
+>        will_help = input(f"Hi {self.name}, \
+>                          I am Rule-Bot. Will you help me learn about your planet?\n")
+>        
+>        if will_help in self.negative_reponses:
+>            print("ok, have a nice Earth day!")
+>            return 
+>        self.chat()
+>```
+>***
 > 5. The `make_exit(reply)` function checks if the user has entered one of the exit commands and terminates the chatbot if so.
 > 
 > 6. The `chat()` function implements the core of the chatbot, by randomly selecting one of the starter questions and then repeatedly responding to the user's input using the `match_reply()` function.

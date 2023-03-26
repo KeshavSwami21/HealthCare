@@ -9,14 +9,14 @@
 > 
 > 3. The `__init__()` function initializes the chatbot's intents as a dictionary with regular expressions that correspond to specific questions or statements the user may make.
 >```python
->def __init__(self):
+>    def __init__(self):
 >        self.alienbabble = {'describe_planet_intent': r'.*\s*your planet.*',
 >                            'answer_why_intent': r'why\sare.*'}
 >``` 
 >***
 > 4. The `greet()` function initiates the conversation with the user by asking for their name and whether they are willing to help the alien learn about Earth.
 >```python
-> def greet(self):
+>    def greet(self):
 >        self.name = input("What is your name?\n")
 >        will_help = input(f"Hi {self.name}, \
 >                          I am Rule-Bot. Will you help me learn about your planet?\n")
@@ -28,9 +28,23 @@
 >```
 >***
 > 5. The `make_exit(reply)` function checks if the user has entered one of the exit commands and terminates the chatbot if so.
-> 
+> ```python
+>    def make_exit(self, reply):
+>        
+>        for command in self.exit_commands:
+>            if reply == command:
+>                print("Okay, have a nice Earth day!")
+>                return True
+>```
+>***
 > 6. The `chat()` function implements the core of the chatbot, by randomly selecting one of the starter questions and then repeatedly responding to the user's input using the `match_reply()` function.
-> 
+> ```python
+>    def chat(self):
+>        reply = input(random.choice(self.random_question)).lower()
+>        while not self.make_exit(reply):
+>            reply = input(self.match_reply(reply))
+>```
+>***
 > 7. The `match_reply(reply)` function matches the user's input to one of the intents defined in the chatbot's dictionary and responds accordingly. If the input does not match any intent, the chatbot uses the `no_match_intent()` function to prompt the user for more information.
 > 
 > 8. The `describe_planet_intent()` and `answer_why_intent()` functions define specific responses to the corresponding intents in the chatbot's dictionary.

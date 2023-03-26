@@ -13,3 +13,15 @@ We understand that your health is important to you, and we are committed to deli
 So, stay tuned! We believe that our Health Care Chatbot has the potential to revolutionize the way we approach healthcare, and we can't wait to bring it to you.
 
 ---
+
+Introducing our amazing team, dedicated to bringing our Health Care Chatbot to life:
+
+- Commander: Keshav Swami
+- Vice-Commander: Prince Garg
+- 1st Division Captain (Research and Documentation): Ritesh
+- 2nd Division Captain (Development): Arshit
+- 3rd Division Captain (UI/UX Design): Niti Bhatia
+- 4th Division Captain (Management): Vanshika
+- 5th Division Captain (Security): Not Assigned yet
+- 6th Division Captain (Maintenance): Not Assigned yet
+Together, we are working tirelessly to create a reliable, secure, and user-friendly Health Care Chatbot powered by deep learning and neural networks. We are excited to bring our unique skills and perspectives to this project, and we look forward to sharing our progress with you.

@@ -1,6 +1,6 @@
 ## "HealthBot: Your Personal Health Care Assistant Powered by Deep Learning and Neural Networks"
 
-### Current Version in Development: [V_0.3](https://github.com/KeshavSwami21/HealthCare/tree/main/V_0.3)
+### Current Version in Development: [V_1](https://github.com/KeshavSwami21/HealthCare/tree/main/V_1)
 
 Welcome to our Health 🫀  Care 🫂  Chatbot, currently in development and powered 🫅  by deep learning 📕🧑‍🎓📖  and neural networks. Our team 🏉  is working 💼  hard to create ⚒️  an innovative tool 🔨  that will provide you 🫵  with quick and reliable answers ✔️  to your health-related 👩‍⚕️  questions, ❔  anytime and anywhere.
 

@@ -32,6 +32,8 @@ Together, we are working tirelessly to create a reliable, secure, and user-frien
 
 ### Organization:
 
+![](image.png)
+
 Welcome to Innovate X, where we 🌿  believe in pushing 🫸🫸🫸  the 🤘  boundaries of innovation and creativity 🧑‍🎨🖌️  to solve complex problems ⚠️  and positively impact the 🫵  world. 🌐🌍  We 👩‍👩‍👦‍👦  are 👉  a team 👥  of dedicated individuals from 😤  diverse backgrounds, united 🇬🇧  by our passion for 🔰  innovation and a drive to make a difference.
 
 At Innovate X, we 👩‍👩‍👦‍👦  constantly explore new 🇳🇿  and innovative ways 🌌  to create 🛠️  value for 🔰  our clients and society. We 👩‍👩‍👦‍👦  leverage cutting-edge ✂️  technologies ⌨️  and creative thinking 🤔  to deliver solutions tailored to our client's needs and address the 🤘🤘🤘  challenges of today and tomorrow.

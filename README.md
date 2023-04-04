@@ -13,7 +13,7 @@ We 🌿  understand that your health 🫀  is important to you, 🫵  and we �
 So, stay tuned! We 👩‍👩‍👦‍👦  believe that our Health 🏥🧑‍⚕️👩‍⚕️  Care 🫂  Chatbot has the 🤘  potential to revolutionize the 🤘  way 🌌  we 🌿  approach healthcare, 👨‍⚕️  and we 🌿  can't wait 🚏  to bring 🇧🇷  it to you. 😊
 
 ---
-
+<!-- 
 ### Our Team:
 Introducing our amazing team, dedicated to bringing our Health Care Chatbot to life:
 
@@ -28,7 +28,7 @@ Introducing our amazing team, dedicated to bringing our Health Care Chatbot to l
 
 Together, we are working tirelessly to create a reliable, secure, and user-friendly Health Care Chatbot powered by deep learning and neural networks. We are excited to bring our unique skills and perspectives to this project, and we look forward to sharing our progress with you.
 
----
+--- -->
 
 ### Organization:
 

@@ -1,4 +1,5 @@
 nltk
+tensorflow
 numpy
 scikit-learn
 django
